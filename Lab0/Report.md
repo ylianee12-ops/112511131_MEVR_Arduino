@@ -1,4 +1,3 @@
-**`Lab0/Task0-1/report.md`**
 
 ```markdown
 # 課題報告：Task 0-1 Blink
