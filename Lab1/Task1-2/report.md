@@ -1,26 +1,39 @@
-**`Lab1/Task1-2/report.md`（完整示範報告）**
+# 課題報告：Advanced Task 1-2 RGB LED — Layering Three Inputs
 
-```markdown
-# 課題報告：Task 0-1 Hello World 序列埠輸出
-
-- **學生姓名**：[請填寫姓名]
-- **學生學號**：[請填寫學號]
-- **完成日期**：2026-XX-XX
+- **學生姓名**：邱子澄
+- **學生學號**：112511131
+- **完成日期**：2026-09-13
 
 ---
 
 ### 1. 實驗目標(可參考課程投影片寫法)
-- 驗證 Arduino IDE 開發環境編譯與燒錄功能正常。
-- 掌握 `Serial.begin()` 與 `Serial.println()` 之使用方式。
-- 學習透過 Arduino IDE「序列埠監控器（Serial Monitor）」接收開發板訊息。
+
+認識四腳 RGB LED 的接腳與顏色控制方式，並使用三種不同的輸入控制紅、綠、藍：
+
+- 可變電阻的類比輸入控制藍色亮度。
+- 按鈕控制紅色。
+- Serial Monitor 輸入控制綠色。
 
 ### 2. 設備與元件
+
 - Arduino Uno 開發板 x 1
 - USB Type-B 傳輸線 x 1
 - 個人電腦（已安裝 Arduino IDE）x 1
+- 麵包板 × 1
+- 4-PIN LED × 1
+- 10 kΩ 可變電阻 × 1
+- 220 Ω 限流電阻 × 3
+- 按鈕
+- 杜邦線
 
 ### 3. 操作說明與成果
-1. **燒錄程式**：使用 USB 線連接 Arduino Uno 至電腦，開啟 `Task0-1.ino` 並點擊「上傳」。
-2. **開啟監控器**：開啟 Arduino IDE 的 Serial Monitor，將鮑率（Baud rate）設為 **9600 baud**。
-3. **實驗成果**：序列埠監控器成功每秒印出一次 `Hello World from Arduino!` 訊息。
-4. **操作影片**：請參閱同目錄下 `video/Task0-1.mp4` 之實際操作畫面。
+
+1. 將 RGB LED 的共陽極接到 5V，紅、綠、藍三個接腳分別經過 220 Ω 電阻連接到 Arduino 的 D9、D10、D11。
+2. 可變電阻的中間腳接到 A0，按鈕接到 D2 與 GND。
+
+實驗結果：
+A. 轉動可變電阻時，可以調整藍色 LED 的亮度。
+B. 按下按鈕後會切換紅色 LED，使顏色由藍色變成紫色。
+C. 在 Serial Monitor 輸入 1 時開啟綠色，紅、綠、藍三色同時亮起後顯示白色；輸入 0 時則關閉綠色 LED。
+
+實際成果：`DemoVideo/Task1-2.mp4`。
