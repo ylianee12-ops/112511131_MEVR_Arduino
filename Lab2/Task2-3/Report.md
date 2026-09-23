@@ -8,10 +8,10 @@
 
 ### 1. 實驗目標(可參考課程投影片寫法)
 
-- 使用 Arduino Uno 的外部中斷 (ISR) 控制 LED 狀態。
+- 使用 Arduino Uno 的外部中斷控制 LED 狀態。
 - 了解 attachInterrupt()、ISR 與外部中斷之間的關係。
 - 使用 Polling 與 Edge Detection 控制第二組按鈕及 LED。
-- 透過 delay(2000) 比較 External Interrupt 與 Polling 在系統 Stucking 時的差異。
+- 透過 delay(2000) 比較 External Interrupt 與 Polling 在系統 Blocking 時的差異。
 
 ### 2. 設備與元件
 
