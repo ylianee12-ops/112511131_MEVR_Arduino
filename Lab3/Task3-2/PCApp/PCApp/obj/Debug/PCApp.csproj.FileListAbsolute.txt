@@ -1,0 +1,10 @@
+C:\MEVR\Development\GitHubRepositories\112511131_MEVR_Arduino\Lab3\Task3-2\PCApp\PCApp\bin\Debug\PCApp.exe.config
+C:\MEVR\Development\GitHubRepositories\112511131_MEVR_Arduino\Lab3\Task3-2\PCApp\PCApp\bin\Debug\PCApp.exe
+C:\MEVR\Development\GitHubRepositories\112511131_MEVR_Arduino\Lab3\Task3-2\PCApp\PCApp\bin\Debug\PCApp.pdb
+C:\MEVR\Development\GitHubRepositories\112511131_MEVR_Arduino\Lab3\Task3-2\PCApp\PCApp\obj\Debug\PCApp.csproj.AssemblyReference.cache
+C:\MEVR\Development\GitHubRepositories\112511131_MEVR_Arduino\Lab3\Task3-2\PCApp\PCApp\obj\Debug\PCApp.Form1.resources
+C:\MEVR\Development\GitHubRepositories\112511131_MEVR_Arduino\Lab3\Task3-2\PCApp\PCApp\obj\Debug\PCApp.Properties.Resources.resources
+C:\MEVR\Development\GitHubRepositories\112511131_MEVR_Arduino\Lab3\Task3-2\PCApp\PCApp\obj\Debug\PCApp.csproj.GenerateResource.cache
+C:\MEVR\Development\GitHubRepositories\112511131_MEVR_Arduino\Lab3\Task3-2\PCApp\PCApp\obj\Debug\PCApp.csproj.CoreCompileInputs.cache
+C:\MEVR\Development\GitHubRepositories\112511131_MEVR_Arduino\Lab3\Task3-2\PCApp\PCApp\obj\Debug\PCApp.exe
+C:\MEVR\Development\GitHubRepositories\112511131_MEVR_Arduino\Lab3\Task3-2\PCApp\PCApp\obj\Debug\PCApp.pdb

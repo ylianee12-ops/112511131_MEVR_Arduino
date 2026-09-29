@@ -1,0 +1,14 @@
+Arduino GND → (Blue -)
+
+Button A:
+D2 → Button A → GND
+
+LED A（紅）:
+D6 → 220Ω → Red LED → GND
+
+
+Button B:
+D3 → Button B → GND
+
+LED B（藍）:
+D7 → 220Ω → Blue LED → GND
