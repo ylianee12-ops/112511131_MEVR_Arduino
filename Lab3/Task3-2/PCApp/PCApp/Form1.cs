@@ -14,7 +14,7 @@ namespace PCApp
 {
     public partial class Form1 : Form
     {
-        SerialPort serialPort = new SerialPort("COM7", 9600);
+        SerialPort serialPort = new SerialPort("COM8", 9600);
 
         public Form1()
         {
